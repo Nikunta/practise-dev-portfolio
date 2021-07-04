@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.experience-area{
+        display: flex;
+        margin-bottom: 100px;
+}
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.practise{
+    color: gold;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+h3{
+    font-size: 30px;
+}
+.text-size{
+    font-size: 20px;
+}
+.first-div{
+    margin: 2%;
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.first-div img{
+    width: 90%;
+}
+.target-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,black);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5%;
+}
+.full-stack-dev{
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+        border-radius: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+.last-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(243, 111, 87),rgb(219, 219, 107));
+    border-image-slice: 1;
+
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+}
+.last-tag{
+    text-align: center;
+}
